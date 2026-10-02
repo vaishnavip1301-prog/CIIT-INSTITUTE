@@ -1084,7 +1084,7 @@ export default function DotNetCoreWithAngular() {
                         Duration
                       </small>
 
-                      <strong>2 Months</strong>
+                      <strong>6 Months</strong>
 
                     </div>
                   </div>

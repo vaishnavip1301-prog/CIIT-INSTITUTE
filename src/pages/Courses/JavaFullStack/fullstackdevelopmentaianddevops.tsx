@@ -527,7 +527,7 @@ export default function FullStackDevelopmentAIAndDevOps() {
         <div className="container">
           <div className="row g-3">
             {[
-              ["bi-calendar3", "Course Duration", "9 Months"],
+              ["bi-calendar3", "Course Duration", "6 Months"],
               ["bi-laptop", "Training Mode", "Classroom & Online"],
               ["bi-calendar-week", "Batches", "Weekdays / Weekends"],
               ["bi-translate", "Language", "English, Hindi, Marathi"],

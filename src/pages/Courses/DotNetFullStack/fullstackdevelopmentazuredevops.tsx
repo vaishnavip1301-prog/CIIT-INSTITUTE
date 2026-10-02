@@ -322,7 +322,7 @@ export default function FullStackDevelopmentAzureDevOps() {
               {
                 icon: "bi-clock-history",
                 title: "Course Duration",
-                value: "7 Months",
+                value: "6 Months",
               },
               {
                 icon: "bi-laptop",

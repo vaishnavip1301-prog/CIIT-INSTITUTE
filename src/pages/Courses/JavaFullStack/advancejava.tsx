@@ -29,7 +29,7 @@ export default function AdvanceJava() {
     },
     {
       title: "Versatility and Flexibility",
-      text: 'Senior Java developers possess a broad range of skills, allowing them to adapt to various roles and project requirements across different industries. This flexibility means more career options and the ability to work on diverse projects.',
+      text: "Senior Java developers possess a broad range of skills, allowing them to adapt to various roles and project requirements across different industries. This flexibility means more career options and the ability to work on diverse projects.",
     },
     {
       title: "Competitive Salaries",
@@ -144,7 +144,7 @@ export default function AdvanceJava() {
       style={{
         minHeight: "100vh",
         background: "#f5faff",
-        // color: "#18324b",
+        color: "#18324b",
         fontFamily:
           "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
       }}
@@ -155,32 +155,35 @@ export default function AdvanceJava() {
       <section
         style={{
           background:
-            "linear-gradient(135deg, #063b68 0%, #087bc9 55%, #168fe1 100%)",
-          color: "#fff",
-          padding: "55px 0 70px",
+            "linear-gradient(135deg, #f5faff 0%, #eef8ff 55%, #ffffff 100%)",
+          color: "#18324b",
+          padding: "45px 0 70px",
           position: "relative",
           overflow: "hidden",
+          borderBottom: "1px solid #dcebf7",
         }}
       >
+        {/* Decorative Circle */}
         <div
           style={{
             position: "absolute",
             width: 330,
             height: 330,
             borderRadius: "50%",
-            border: "45px solid rgba(255,255,255,0.05)",
+            border: "45px solid rgba(22,143,225,0.05)",
             right: -100,
             top: -110,
           }}
         />
 
+        {/* Decorative Circle */}
         <div
           style={{
             position: "absolute",
             width: 180,
             height: 180,
             borderRadius: "50%",
-            border: "25px solid rgba(255,255,255,0.06)",
+            border: "25px solid rgba(22,143,225,0.04)",
             left: -70,
             bottom: -80,
           }}
@@ -189,13 +192,15 @@ export default function AdvanceJava() {
         <div className="container position-relative">
           <div className="row align-items-center g-5">
             <div className="col-lg-8">
+              {/* Label */}
               <div
                 style={{
                   display: "inline-flex",
                   padding: "7px 14px",
                   borderRadius: 30,
-                  background: "rgba(255,255,255,0.12)",
-                  border: "1px solid rgba(255,255,255,0.18)",
+                  background: "#e8f5ff",
+                  border: "1px solid #cce6f8",
+                  color: "#087bc9",
                   fontSize: 12,
                   fontWeight: 800,
                   letterSpacing: 1.5,
@@ -205,6 +210,7 @@ export default function AdvanceJava() {
                 ADVANCE JAVA DEVELOPMENT
               </div>
 
+              {/* Heading */}
               <h1
                 style={{
                   fontSize: "clamp(30px, 4vw, 48px)",
@@ -212,18 +218,24 @@ export default function AdvanceJava() {
                   fontWeight: 800,
                   letterSpacing: "-1.5px",
                   marginBottom: 22,
+                  color: "#101b30",
+                  maxWidth: 820,
                 }}
               >
-                Learn Latest Advance Java on job training & get placed as a
-                Senior Java Developer
+                Learn Latest Advance Java on job training & get placed as a{" "}
+                <span style={{ color: "#1687dc" }}>
+                  Senior Java Developer
+                </span>
               </h1>
 
+              {/* Description */}
               <p
                 style={{
                   fontSize: 17,
                   lineHeight: 1.8,
-                  color: "rgba(255,255,255,0.9)",
+                  color: "#607486",
                   maxWidth: 820,
+                  marginBottom: 0,
                 }}
               >
                 CIIT's Advance Java Development Training is ideal for working
@@ -231,20 +243,23 @@ export default function AdvanceJava() {
                 Developer.
               </p>
 
+              {/* Information Card */}
               <div
                 style={{
-                  background: "rgba(255,255,255,0.09)",
+                  background: "#fff",
                   borderRadius: 18,
                   padding: "20px 22px",
                   margin: "25px 0",
-                  border: "1px solid rgba(255,255,255,0.12)",
+                  border: "1px solid #dcebf7",
+                  boxShadow: "0 10px 30px rgba(17,65,96,0.06)",
+                  maxWidth: 820,
                 }}
               >
                 <h3
                   style={{
                     textAlign: "center",
                     fontWeight: 800,
-                    color: "#fff",
+                    color: "#18324b",
                     fontSize: 22,
                     marginBottom: 12,
                   }}
@@ -256,7 +271,7 @@ export default function AdvanceJava() {
                   style={{
                     lineHeight: 1.8,
                     marginBottom: 12,
-                    color: "rgba(255,255,255,0.9)",
+                    color: "#607486",
                   }}
                 >
                   The demand for Senior Java developers is high, particularly
@@ -269,7 +284,7 @@ export default function AdvanceJava() {
                   style={{
                     lineHeight: 1.8,
                     marginBottom: 0,
-                    color: "rgba(255,255,255,0.9)",
+                    color: "#607486",
                   }}
                 >
                   CIIT's A career in Advance Java development offers numerous
@@ -281,6 +296,7 @@ export default function AdvanceJava() {
                 </p>
               </div>
 
+              {/* Buttons */}
               <div className="d-flex flex-wrap gap-3 mt-4">
                 <button
                   type="button"
@@ -290,19 +306,22 @@ export default function AdvanceJava() {
                     borderRadius: 12,
                     padding: "13px 24px",
                     fontWeight: 800,
-                    background: "#fff",
-                    color: "#087bc9",
+                    background:
+                      "linear-gradient(135deg,#087bc9,#168fe1)",
+                    color: "#fff",
+                    boxShadow: "0 10px 25px rgba(8,123,201,0.18)",
                   }}
                 >
-                  Enquire Now
+                  Enquire Now →
                 </button>
 
                 <div
                   style={{
                     padding: "13px 18px",
                     borderRadius: 12,
-                    background: "rgba(255,255,255,0.1)",
-                    border: "1px solid rgba(255,255,255,0.2)",
+                    background: "#fff",
+                    border: "1px solid #cce2f2",
+                    color: "#087bc9",
                     fontWeight: 700,
                   }}
                 >
@@ -311,13 +330,15 @@ export default function AdvanceJava() {
               </div>
             </div>
 
+            {/* HERO IMAGE */}
             <div className="col-lg-4">
               <div
                 style={{
                   background: "#fff",
                   borderRadius: 24,
                   padding: 10,
-                  boxShadow: "0 25px 60px rgba(0,0,0,0.18)",
+                  border: "1px solid #cce2f2",
+                  boxShadow: "0 20px 55px rgba(17,65,96,0.10)",
                 }}
               >
                 <img
@@ -354,21 +375,13 @@ export default function AdvanceJava() {
           >
             {[
               ["bi-clock-fill", "Course Duration", "3 Months"],
-              [
-                "bi-laptop-fill",
-                "Training Mode",
-                "Classroom & Online",
-              ],
+              ["bi-laptop-fill", "Training Mode", "Classroom & Online"],
               [
                 "bi-calendar-week-fill",
                 "Batches Available",
                 "Weekdays / Weekends",
               ],
-              [
-                "bi-translate",
-                "Language",
-                "English, Hindi, Marathi",
-              ],
+              ["bi-translate", "Language", "English, Hindi, Marathi"],
             ].map(([icon, title, value]) => (
               <div className="col-md-6 col-lg-3" key={title}>
                 <div
@@ -630,9 +643,21 @@ export default function AdvanceJava() {
                   </h3>
 
                   {[
-                    ["bi-person-fill", "Batches Available", "Weekdays/Weekends"],
-                    ["bi-bookmark-heart-fill", "Training Mode", "Classroom & Online"],
-                    ["bi-bell-fill", "Language", "English, Hindi, Marathi"],
+                    [
+                      "bi-person-fill",
+                      "Batches Available",
+                      "Weekdays/Weekends",
+                    ],
+                    [
+                      "bi-bookmark-heart-fill",
+                      "Training Mode",
+                      "Classroom & Online",
+                    ],
+                    [
+                      "bi-bell-fill",
+                      "Language",
+                      "English, Hindi, Marathi",
+                    ],
                   ].map(([icon, title, value]) => (
                     <div
                       key={title}
@@ -653,8 +678,7 @@ export default function AdvanceJava() {
                       />
 
                       <span>
-                        <b style={{ color: "#18324b" }}>{title}:</b>{" "}
-                        {value}
+                        <b style={{ color: "#18324b" }}>{title}:</b> {value}
                       </span>
                     </div>
                   ))}
@@ -700,7 +724,7 @@ export default function AdvanceJava() {
           </h2>
 
           <div className="row g-4 mt-2">
-            {benefits.map((item, index) => (
+            {benefits.map((item) => (
               <div className="col-md-6" key={item.title}>
                 <div
                   style={{
@@ -1245,14 +1269,11 @@ export default function AdvanceJava() {
                     <td style={{ padding: 15, fontWeight: 800 }}>
                       Entry Level
                     </td>
-
                     <td style={{ padding: 15 }}>0–2 years</td>
-
                     <td style={{ padding: 15 }}>
                       Junior Full Stack Developer, Associate Developer,
                       Developer Intern, Entry-Level Software Engineer
                     </td>
-
                     <td style={{ padding: 15, lineHeight: 1.7 }}>
                       Focuses on learning the codebase, fixing bugs, and
                       developing small features under mentorship. Key skills
@@ -1265,14 +1286,11 @@ export default function AdvanceJava() {
                     <td style={{ padding: 15, fontWeight: 800 }}>
                       Mid Level
                     </td>
-
                     <td style={{ padding: 15 }}>3–5 years</td>
-
                     <td style={{ padding: 15 }}>
                       Full Stack Developer, Software Engineer, Application
                       Developer
                     </td>
-
                     <td style={{ padding: 15, lineHeight: 1.7 }}>
                       Works independently on end-to-end features, participates
                       in design and architecture, and collaborates with
@@ -1286,14 +1304,11 @@ export default function AdvanceJava() {
                     <td style={{ padding: 15, fontWeight: 800 }}>
                       Senior Level
                     </td>
-
                     <td style={{ padding: 15 }}>6+ years</td>
-
                     <td style={{ padding: 15 }}>
                       Senior Full Stack Developer, Lead Developer/Tech Lead,
                       Software Architect
                     </td>
-
                     <td style={{ padding: 15, lineHeight: 1.7 }}>
                       Leads projects or sprint modules, designs scalable and
                       robust systems, reviews peers' code, mentors junior
@@ -1307,14 +1322,11 @@ export default function AdvanceJava() {
                     <td style={{ padding: 15, fontWeight: 800 }}>
                       Leadership/Executive
                     </td>
-
                     <td style={{ padding: 15 }}>10+ years</td>
-
                     <td style={{ padding: 15 }}>
                       Engineering Manager, Director of Engineering, VP of
                       Technology, Chief Technology Officer (CTO)
                     </td>
-
                     <td style={{ padding: 15, lineHeight: 1.7 }}>
                       Shifts from hands-on coding to strategic planning, people
                       management, overseeing multiple teams, and aligning
@@ -1335,8 +1347,7 @@ export default function AdvanceJava() {
         <div className="container">
           <div
             style={{
-              background:
-                "linear-gradient(135deg,#0e3458,#1687dc)",
+              background: "linear-gradient(135deg,#0e3458,#1687dc)",
               borderRadius: 26,
               padding: "45px 30px",
               textAlign: "center",

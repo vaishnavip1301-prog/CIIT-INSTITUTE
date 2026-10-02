@@ -2023,7 +2023,7 @@ export default function Header() {
 
               <span className="ciit-top-item">
                 <i className="bi bi-telephone-fill" />
-                CALL +91-9766439090
+                CALL +91-7028565830
               </span>
 
               <span className="ciit-top-item">
@@ -2036,7 +2036,7 @@ export default function Header() {
             <div className="ciit-socials">
 
               <a
-                href="#"
+                href="https://wa.me/917028565830"
                 className="ciit-social ciit-whatsapp"
                 aria-label="WhatsApp"
               >
@@ -2044,7 +2044,7 @@ export default function Header() {
               </a>
 
               <a
-                href="#"
+                href="https://youtube.com/@ciittraininginstitute?si=Iz9gehSPTES5nf8P"
                 className="ciit-social ciit-youtube"
                 aria-label="YouTube"
               >
@@ -2052,7 +2052,7 @@ export default function Header() {
               </a>
 
               <a
-                href="#"
+                href="https://www.facebook.com/share/1BxB28HDir/"
                 className="ciit-social ciit-facebook"
                 aria-label="Facebook"
               >
@@ -2060,7 +2060,7 @@ export default function Header() {
               </a>
 
               <a
-                href="#"
+                href="https://www.instagram.com/ciittraininginstitute?stkn=MWxtZnY0dmoycTl6cA=="
                 className="ciit-social ciit-instagram"
                 aria-label="Instagram"
               >
@@ -2068,7 +2068,7 @@ export default function Header() {
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/in/ciit-training-institute-207496392?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                 className="ciit-social ciit-linkedin"
                 aria-label="LinkedIn"
               >

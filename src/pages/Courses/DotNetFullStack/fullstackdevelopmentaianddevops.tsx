@@ -328,7 +328,7 @@ export default function FullStackDevelopmentAIAndDevOps() {
           <div className="container">
             <div className="row g-3">
               {[
-                ["Course Duration", "9 Months", "bi-clock"],
+                ["Course Duration", "6 Months", "bi-clock"],
                 ["Training Mode", "Classroom & Online", "bi-display"],
                 [
                   "Batches Available",

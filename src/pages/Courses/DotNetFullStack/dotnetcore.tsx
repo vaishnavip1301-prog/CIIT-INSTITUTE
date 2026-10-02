@@ -766,7 +766,7 @@ export default function DotNetCore() {
                       <small className="text-secondary d-block">
                         Duration
                       </small>
-                      <strong>3 Months</strong>
+                      <strong>6 Months</strong>
                     </div>
                   </div>
 

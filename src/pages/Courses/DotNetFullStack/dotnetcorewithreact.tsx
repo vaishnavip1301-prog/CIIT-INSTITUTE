@@ -997,7 +997,7 @@ export default function DotNetCoreWithReact() {
                       </div>
 
                       <h5 className="fw-bold text-dark mb-2">
-                        Get Your Dream IT Job Just in 2 Months
+                        Get Your Dream IT Job Just in 6 Months
                       </h5>
 
                       <p className="react-section-text mb-0">
@@ -1055,7 +1055,7 @@ export default function DotNetCoreWithReact() {
                       </small>
 
                       <strong>
-                        2 Months
+                        6 Months
                       </strong>
 
                     </div>
